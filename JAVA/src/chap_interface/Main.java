@@ -15,5 +15,9 @@ public class Main implements TestInterface{
         //따라서 Main 클래스의 객체를 생성하여 그 객체를 통해 add를 호출하는 것.
         Main myObject = new Main();
         myObject.add(4, 5);
+
+        //위처럼 사용하지 않고, 인터페이스 변수에 객체를 대입하여 사용할 수 있음.
+        TestInterface mTestInterface = new Main();
+        mTestInterface.add(10, 10);
     }
 }
