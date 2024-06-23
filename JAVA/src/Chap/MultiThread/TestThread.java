@@ -1,4 +1,4 @@
-package Chap12.MultiThread;
+package Chap.MultiThread;
 
 public class TestThread {
 
@@ -11,8 +11,6 @@ public class TestThread {
 
         Thread1 thread1 = new Thread1();
         Thread thread2 = new Thread(new Thread2());
-
-
 
         System.out.println("종료");
     }
